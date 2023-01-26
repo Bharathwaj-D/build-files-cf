@@ -4,6 +4,8 @@ phases:
      commands:
       - sudo yarn install
       - sudo yarn build
+    post_build:
+      - aws cloudfront create-invalidation --distribution-id="E2GTYUKJ7GEAQ1" --paths "/*"
       
 artifacts:
   files:
