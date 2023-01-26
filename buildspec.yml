@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+    build:
+     commands:
+      - sudo yarn install
+      - sudo yarn build
+      
+artifacts:
+  files:
+    - '**/*'      
+      
