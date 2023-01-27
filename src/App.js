@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          vibes <code>src/App.js</code> click below link .
+          vibes click below link .
         </p>
         <a
           className="App-link"
